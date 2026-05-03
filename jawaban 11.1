@@ -1,0 +1,8 @@
+def tiga_terbaik(data):
+    sortedData = sorted(data, reverse=True)
+    return sortedData[:3]
+
+data = [45, 12, 89, 34, 67, 90, 23, 56, 78, 10]
+hasil = tiga_terbaik(data)
+
+print("3 bilangan terbaik:", hasil)
